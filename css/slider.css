@@ -1,0 +1,56 @@
+header {
+	text-align: center;
+	font-family: serif;
+	margin-bottom: -3em;
+	margin-left: -20%;
+}
+
+#wrapper {
+	width: 800px;
+	margin: 0 auto;
+	border: 1px black;
+}
+
+#loopStatus{
+	position: absolute;
+	color: white;
+	margin-top: 4em;
+	margin-left: 1em;
+}
+
+#slider {
+	width: 100%;
+	height: 420px;
+	overflow: hidden;
+	margin: 10% auto;
+}
+
+#slider img {
+	width: 600px;
+	height: 100%;
+	border: solid;
+	float: left;
+	display: none;
+}
+
+a.sliderLinks{
+	margin-top: -5%;
+	padding: 5px 10px;
+	background-color: #F0F0F0;
+	text-decoration: none;
+	font-size: 2em;
+	font-family: fantasy;
+}
+
+a.sliderLinks:hover {
+	color: green;
+}
+
+#left{
+	float: left;
+}
+
+#right{
+	float: right;
+	margin-right: 7em;
+}
